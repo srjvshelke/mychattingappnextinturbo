@@ -7,7 +7,7 @@ import Chatcontent from './Chatcontent';
 import { FaPlus } from "react-icons/fa";
 import { FaPaperPlane } from "react-icons/fa6";
 import { useDispatch, useSelector } from 'react-redux';
-import { addItem } from '@/app/REDUX/Reducer/chatSlice';
+import { addItem } from '../../REDUX/Reducer/chatSlice';
 const Rightchatpart: React.FC = () => {
    const chatedata =  useSelector((state)=>{ return state.chats ;});
 
