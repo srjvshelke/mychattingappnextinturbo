@@ -1,11 +1,16 @@
-import Image from "next/image";
-import { Button } from "@repo/ui/button";
+
 import styles from "./page.module.css";
 
-export default function Home() {
+ const Home: React.FC = ()=> {
   return (
-    <div>
-     csdfjie
+
+    <div >
+      <h1 className="text-fuchsia-500">
+        hello
+      </h1>
     </div>
+
   );
 }
+
+export default Home ;
