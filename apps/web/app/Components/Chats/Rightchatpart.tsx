@@ -76,11 +76,11 @@ const [msginput,setmsginput] = useState('');
         <div className="chat_right h-[100%] w-[70%] px-5 py-3 bg-slate-500 ">
             <div className="content__header h-[10%] W-[100%] flex justify-between items-center border-b-2 border-y-slate-400 pb-2">
                 <div className="current-chatting-user flex justify-center items-center">
-                    <Avatar
-                        image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"
+                    <Avatar image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"
                     />
                     <p>Suraj</p>
-                </div>
+                </div> 
+                
 
                 <div className="settings">
                     <button className="btn-nobg">
@@ -89,7 +89,7 @@ const [msginput,setmsginput] = useState('');
                     </button>
                 </div>
             </div>
-            <div className="content__body h-[80%] py-2 w-[100%]  overflow-auto backdrop:">
+            <div className="content__body h-[80%] py-2 w-[100%]  overflow-auto backdrop:"> 
                 {
                     chatedata.chats.map((itm, index) => {
                         return (
@@ -101,7 +101,7 @@ const [msginput,setmsginput] = useState('');
                             />
                         );
                     })
-                }
+                } 
             </div>
             <div className="content__footer h-[10%] W-[100%] flex justify-between items-center  p-[10px] bg-slate-100">
                 <button className="addFiles w-[36px] h-[36px] bg-white text-sky-400 flex justify-center items-center rounded ">
